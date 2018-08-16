@@ -1,0 +1,42 @@
+@font_main_1: 'Roboto', sans-serif;
+
+@fontsize_main_1: 14px;
+@fontsize_main_2: 12px;
+@fontsize_main_3: 16px;
+
+
+
+@color_main_1: #2e3847;
+@color_main_2: #ffffff;
+@color_main_3: #433386;
+@color_main_4: #413281;
+@color_main_5: #0099cf;
+@color_main_6: #2998cc;
+@color_main_7: #041132;
+@color_main_8: #000221;
+@color_main_9: #f7f8fa;
+@color_main_10: #f2f3f5;
+@color_main_11: #001233;
+@color_main_12: #d4eaf5;
+@color_main_13: #dde3eb;
+@color_main_14: #9babb8;
+
+
+
+@main_section: 1100px;
+
+@transition_button: 0.4s;
+
+
+/*adaptive*/
+@fontsize_main_1_adaptive: 13px;
+
+@main_section_1_mobile: 96%;
+@main_section_2_mobile: 100%;
+
+.responsive(@maxWidth; @rules) {
+  @media only screen and (max-width: @maxWidth) {
+    @rules();
+  }
+}
+
